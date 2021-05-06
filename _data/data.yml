@@ -20,9 +20,9 @@ career-profile:
     title: About Me
     summary: |
       I am a staff research scientist in the Optimization and Uncertainty Quantification department at Sandia National Laboratories. Prior to my current position at Sandia, I was a PhD Student in the [Computational Science, Engineering and Mathematics PhD Program](https://www.oden.utexas.edu/graduate-studies/), housed in the [Oden Institute for Computational Engineering and Sciences at UT Austin](https://www.oden.utexas.edu/). My research interests include:
-        - model-form uncertainty quantification
-        - validation and reliability of computational models used for prediction
-        - developing and deploying advanced UQ methods for practical problems in science and engineering
+        #        - model-form uncertainty quantification
+        #        - validation and reliability of computational models used for prediction
+        #        - developing and deploying advanced UQ methods for practical problems in science and engineering
       #     I am an avid cook, choral singer, and photographer. 
 education:
     - degree: PhD Computational Science, Engineering and Mathematics
@@ -52,34 +52,34 @@ experiences:
       time: 2020 - Present
       company: Sandia National Laboratories
       details: |
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+        #projects:
+        #    title: Projects
+        #    intro: >
+        #      You can list your side projects or open source libraries in this
+        #      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        #      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        #    assignments:
+        #      - title: Velocity
+        #        link: "#hook"
+        #        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        #
+        #      - title: DevStudio
+        #        link: "#"
+        #        tagline: "A responsive website template designed to help web developers/designers market their services."
+        #
+        #      - title: Tempo
+        #        link: "#"
+        #        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        #
+        #      - title: Atom
+        #        link: "#"
+        #        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        #
+        #      - title: Delta
+        #        link: "#"
+        #      You can list your publications in this section. Lorem ipsum dolor sit
+        #      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+        #      bibendum fringilla a eu lectus.
     papers:
       - title: The Art of Computer Programming
         link: "#"
