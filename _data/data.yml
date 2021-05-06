@@ -3,7 +3,6 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,28 +14,18 @@ sidebar:
     email: tporton@sandia.gov
     website: teresaportone.github.io #do not add http://
     linkedin: teresa-portone
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    
-  interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    # Add back in other sidebar links -- see contact.html in _includes
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a staff research scientist in the Optimization and Uncertainty Quantification department at Sandia National Laboratories. 
+    Prior to my current position at Sandia, I was a PhD Student in the [Computational Science, Engineering and Mathematics PhD Program](https://www.oden.utexas.edu/graduate-studies/), 
+    housed in the [Oden Institute for Computational Engineering and Sciences at UT Austin](https://www.oden.utexas.edu/). My research interests include:
+        - model-form uncertainty quantification
+        - validation and reliability of computational models used for prediction
+        - developing and deploying advanced UQ methods for practical problems in science and engineering.
+     I am an avid cook, choral singer, and photographer. 
 education:
     - degree: MSc in Computer Science
       university: University of London
