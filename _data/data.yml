@@ -28,23 +28,26 @@ career-profile:
 publications:
   title: Recent Publications
   papers:
-  - title: Bayesian model selection for metal yield models in high-velocity impact.
-    authors: Teresa Portone, John Niederhaus, Jason Sanchez, and Laura Swiler.
-    journal: International Journal of Impact Engineering (2020)
+  - title: Bayesian model selection for metal yield models in high-velocity impact
+    authors: Teresa Portone, John Niederhaus, Jason Sanchez, and Laura Swiler
+    journal: International Journal of Impact Engineering 
+    year: 2020
     link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
   preprints:
-  - title: Bayesian inference of an uncertain generalized diffusion operator.
-    authors: Teresa Portone, Robert D. Moser.
+  - title: Bayesian inference of an uncertain generalized diffusion operator
+    authors: Teresa Portone, Robert D. Moser
+    year: 2021
     link: "https://arxiv.org/abs/2105.01807"
   other:
-  - title: Representing Model-Form Uncertainty from Missing Microstructural Information. 
-    authors: Teresa Portone.
-    type: Dissertation.
+  - title: Representing Model-Form Uncertainty from Missing Microstructural Information
+    authors: Teresa Portone
+    type: Dissertation
+    year: 2019
     link: "http://dx.doi.org/10.26153/tsw/10112"
 presentations:
   title: Recent Presentations
   conference-talks:
-  - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model. 
-    authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler.
-    conference: SIAM CSE21. Virtual, March 2021.
-    #link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
+  - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model 
+    authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
+    conference: SIAM CSE21, Virtual, March 2021
+    link: "assets/presentations/portone_cse21.pdf"

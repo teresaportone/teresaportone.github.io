@@ -20,9 +20,9 @@
   <div class="item">
     <ul class="presentations-list">
   {% for presentation in presentations.conference-talks %}
-    <li class="publication-item"> <div class="publication-title">{{ presentation.title }}</div> {{ presentation.authors }} {{ presentation.conference }}
+    <li class="publication-item"> <div class="publication-title">{{ presentation.title }}.</div> {{ presentation.authors }}. {{ presentation.conference }}.
     {% if presentation.link %}
-      <a href="{{ presentation.link }}">{{ presentation.link }}</a>
+      <a href="{{ presentation.link }}">[Slides]</a>
     {% endif %}
     </li>
   {% endfor %}

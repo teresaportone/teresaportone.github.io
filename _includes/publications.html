@@ -20,7 +20,10 @@
   <div class="item">
     <ul class="publications-list">
   {% for publication in publications.papers %}
-    <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} {{ publication.journal }}
+    <li class="publication-item"> <div class="publication-title">{{ publication.title }}.</div> {{ publication.authors }}. {{ publication.journal }}.
+    {% if publication.year %}
+      ({{ publication.year }})
+    {% endif %}
     {% if publication.link %}
       <a href="{{ publication.link }}">{{ publication.link }}</a>
     {% endif %}
@@ -40,7 +43,10 @@
   <div class="item">
     <ul class="publications-list">
   {% for publication in publications.preprints %}
-    <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} 
+    <li class="publication-item"> <div class="publication-title">{{ publication.title }}.</div> {{ publication.authors }}. 
+    {% if publication.year %}
+      ({{ publication.year }})
+    {% endif %}
     {% if publication.link %}
       <a href="{{ publication.link }}">{{ publication.link }}</a>
     {% endif %}
@@ -60,7 +66,13 @@
   <div class="item">
     <ul class="publications-list">
   {% for publication in publications.other %}
-  <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} {{ publication.type }}
+  <li class="publication-item"> <div class="publication-title">{{ publication.title }}.</div> {{ publication.authors }}. 
+    {% if publication.type %}
+      {{ publication.type }}.
+    {% endif %}
+    {% if publication.year %}
+      ({{ publication.year }})
+    {% endif %}
     {% if publication.link %}
       <a href="{{ publication.link }}">{{ publication.link }}</a>
     {% endif %}
