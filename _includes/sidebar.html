@@ -11,23 +11,15 @@
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% if sidebar.position %}
+    <h3 class="position">{{ sidebar.position }}</h3>
+    {% endif %}
+    {% if sidebar.company %}
+    <h3 class="company">{{ sidebar.company }}</h3>
     {% endif %}
 
   </div><!--//profile-container-->
 
   {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
 
 </div><!--//sidebar-wrapper-->

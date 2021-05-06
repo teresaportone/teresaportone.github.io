@@ -10,23 +10,66 @@
     {{ publications.title }}
   </h2>
 
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
+  <!-- Journal articles -->
+  {% if publications.papers %}
+  <h2 class="subsection-title">
+    <span class="fa-stack fa-xs">
+    </span>
+      Journal Articles
+  </h2>
+  <div class="item">
+    <ul class="publications-list">
+  {% for publication in publications.papers %}
+    <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} {{ publication.journal }}
+    {% if publication.link %}
+      <a href="{{ publication.link }}">{{ publication.link }}</a>
+    {% endif %}
+    </li>
+  {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+  
+  <!-- Pre-prints -->
+  {% if publications.preprints %}
+  <h2 class="subsection-title">
+    <span class="fa-stack fa-xs">
+    </span>
+     Pre-prints 
+  </h2>
+  <div class="item">
+    <ul class="publications-list">
+  {% for publication in publications.preprints %}
+    <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} 
+    {% if publication.link %}
+      <a href="{{ publication.link }}">{{ publication.link }}</a>
+    {% endif %}
+    </li>
+  {% endfor %}
+    </ul>
+  </div><!--//item-->
   {% endif %}
 
-  {% for publication in publications.papers %}
+  <!-- Other -->
+  {% if publications.other %}
+  <h2 class="subsection-title">
+    <span class="fa-stack fa-xs">
+    </span>
+    Other
+  </h2>
   <div class="item">
+    <ul class="publications-list">
+  {% for publication in publications.other %}
+  <li class="publication-item"> <div class="publication-title">{{ publication.title }}</div> {{ publication.authors }} {{ publication.type }}
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
+      <a href="{{ publication.link }}">{{ publication.link }}</a>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
+    </li>
   {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+
 
 </section><!--//section-->
 {% endif %}

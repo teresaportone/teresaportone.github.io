@@ -42,10 +42,14 @@ p {
     right: 0;
     width: 280px;
     height: 100%;
-    min-height: 800px;
+    min-height: 50px;
     color: #fff;
     a {
         color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: rgba(256, 256, 256, 0.6);
+        }
     }
     .profile-container {
         padding: 30px;
@@ -55,12 +59,12 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
     }
-    .tagline {
+    .tagline, .position, .company {
         color: rgba(256, 256, 256, 0.6);
         font-size: 16px;
         font-weight: 400;
@@ -68,39 +72,40 @@ p {
         margin-bottom: 0;
     }
     .profile {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .avatar {
         //used for profile image
-        max-width: 100px;
+        max-width: 150px;
         margin-bottom: 15px;
         border: 0px solid #fff;
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
-        .fas, .fab {
+        .fas, .fab, .ai {
             margin-right: 5px;
             font-size: 18px;
             vertical-align: middle;
         }
         li {
-            margin-bottom: 15px;
+            margin-bottom: 5px;
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
     .container-block {
-        padding: 30px;
+        padding: 10px;
+        text-align: center;
     }
     .container-block-title {
         text-transform: uppercase;
         font-size: 16px;
         font-weight: 700;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
     .degree {
         font-size: 14px;
@@ -166,8 +171,19 @@ p {
         margin-top: 0;
         margin-bottom: 20px;
     }
+    .subsection-title {
+        //text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0px;
+        margin-left: -20px;
+    //    margin-bottom: 20px;
+    }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .experiences-section, .educations-section {
@@ -213,16 +229,18 @@ p {
             margin-bottom: 15px;
         }
     }
-
     .publication-title {
-        font-size: 16px;
-        font-weight: 400;
         color: $text-color;
-        margin-bottom: 1px;
+        font-style: italic;
+        display: inline;
+        //margin-bottom: 1px;
+    }
+    .publication-item {
+           margin:0 0 10px 0;   
     }
     .publication-authors {
-        font-style: italic;
-        color: $text-grey;
+        //font-style: italic;
+        color: $text-color;
         margin-bottom: 1px;
     }
     .publications-section {

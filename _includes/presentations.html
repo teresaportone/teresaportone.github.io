@@ -1,0 +1,35 @@
+{% assign presentations = site.data.data.presentations %}
+{% if presentations %}
+<section class="section presentations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ presentations.title }}
+  </h2>
+
+  <!-- Conference Talks -->
+  {% if presentations.conference-talks %}
+  <h2 class="subsection-title">
+    <span class="fa-stack fa-xs">
+    </span>
+    Conference Presentations
+  </h2>
+  <div class="item">
+    <ul class="presentations-list">
+  {% for presentation in presentations.conference-talks %}
+    <li class="publication-item"> <div class="publication-title">{{ presentation.title }}</div> {{ presentation.authors }} {{ presentation.conference }}
+    {% if presentation.link %}
+      <a href="{{ presentation.link }}">{{ presentation.link }}</a>
+    {% endif %}
+    </li>
+  {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+  
+
+</section><!--//section-->
+{% endif %}
