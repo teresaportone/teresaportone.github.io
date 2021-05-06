@@ -26,16 +26,16 @@ career-profile:
       #     I am an avid cook, choral singer, and photographer. 
 education:
   - degree: PhD Computational Science, Engineering and Mathematics
-      university: University of Texas at Austin
-      time: 2011 - 2012
-      details: |
-        Blah
-          - bullet
+    university: University of Texas at Austin
+    time: 2011 - 2012
+    details: |
+      Blah
+        - bullet
   - degree: BS Mathematics
-      university: University of Alabama
-      time: 2007 - 2011
-      details: |
-        blah
+    university: University of Alabama
+    time: 2007 - 2011
+    details: |
+      blah
 experiences:
   - role: Senior Member of the Technical Staff
       time: 2020 - Present
