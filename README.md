@@ -7,6 +7,7 @@
 Template for this website is provided by [Online-CV](https://github.com/sharu725/online-cv)
 
 Relevant CSS files:
-- _sass/_base.css
+- _sass/_base.css # Contains the main css for different classes used in the template
+- _sass/skins/_custom.scss # This folder actually contains the css for all the color schemes.
 - assets/plugins/font-awesome/css/all.css
 - assets/plugins/academicons-1.9.1/css/academicons.css
