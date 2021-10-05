@@ -47,6 +47,11 @@ publications:
 presentations:
   title: Recent Presentations
   conference-talks:
+  - title: Learning Missing Mechanisms in a Dynamical System from a Subset of State Variable Observations 
+    authors: T. Portone, E. Acquesta, R. Dandekar, C. Rackauckas 
+    conference: USNCCM16, Virtual, 2021
+    link: "assets/presentations/UDE_data_requirements_portone.pdf"
+  conference-talks:
   - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model 
     authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
     conference: SIAM CSE21, Virtual, March 2021
