@@ -33,11 +33,16 @@ publications:
     journal: International Journal of Impact Engineering 
     year: 2020
     link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
-  preprints:
   - title: Bayesian inference of an uncertain generalized diffusion operator
     authors: Teresa Portone, Robert D. Moser
-    year: 2021
-    link: "https://arxiv.org/abs/2105.01807"
+    journal: SIAM/ASA Journal on Uncertainty Quantification 
+    year: 2022
+    link: "https://doi.org/10.1137/21M141659X"
+    #preprints:
+    #- title: Bayesian inference of an uncertain generalized diffusion operator
+    #  authors: Teresa Portone, Robert D. Moser
+    #  year: 2021
+    #  link: "https://arxiv.org/abs/2105.01807"
   other:
   - title: Representing Model-Form Uncertainty from Missing Microstructural Information
     authors: Teresa Portone
