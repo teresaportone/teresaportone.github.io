@@ -20,7 +20,7 @@ career-profile:
     title: About Me
     details: |
       I am a staff research scientist in the Optimization and Uncertainty Quantification department at Sandia National Laboratories. Prior to my current position at Sandia, I was a PhD Student in the [Computational Science, Engineering and Mathematics PhD Program](https://www.oden.utexas.edu/graduate-studies/), housed in the [Oden Institute for Computational Engineering and Sciences at UT Austin](https://www.oden.utexas.edu/). My research interests include:
-        - model-form uncertainty quantification (model-form error/model inadequacy/model discrepancy)
+        - model-form uncertainty (model-form error/model inadequacy/model discrepancy)
         - Bayesian inference
         - sensitivity analysis
         - multimodel (multilevel/multifidelity) uncertainty quantification
