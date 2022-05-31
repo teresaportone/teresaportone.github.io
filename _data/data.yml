@@ -54,6 +54,10 @@ publications:
 presentations:
   title: Recent Presentations
   conference-talks:
+  - title: Physics-constrained Bayesian inference of an uncertain operator in the sparse-data regime
+    authors: T. Portone, R.D. Moser 
+    conference: SIAM UQ22, Hybrid, April 2022 
+    link: "assets/presentations/portone_siamuq22.pdf"
   - title: Learning Missing Mechanisms in a Dynamical System from a Subset of State Variable Observations 
     authors: T. Portone, E. Acquesta, R. Dandekar, C. Rackauckas 
     conference: USNCCM16, Virtual, 2021
