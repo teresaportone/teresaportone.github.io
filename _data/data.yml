@@ -66,3 +66,8 @@ presentations:
     authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
     conference: SIAM CSE21, Virtual, March 2021
     link: "assets/presentations/portone_cse21.pdf"
+  invited-talks:
+  - title: A brief survey of uncertainty quantification
+    authors: T. Portone
+    event: University of Alabama Mathematics Colloquium, November 2022
+    link: "asses/presentations/portone_UA_colloquium.pdf"

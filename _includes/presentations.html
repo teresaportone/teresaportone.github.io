@@ -30,6 +30,26 @@
   </div><!--//item-->
   {% endif %}
   
+  <!-- Invited Talks -->
+  {% if presentations.invited-talks %}
+  <h2 class="subsection-title">
+    <span class="fa-stack fa-xs">
+    </span>
+    Invited Presentations
+  </h2>
+  <div class="item">
+    <ul class="presentations-list">
+  {% for presentation in presentations.invited-talks %}
+    <li class="publication-item"> <div class="publication-title">{{ presentation.title }}.</div> {{ presentation.authors }}. {{ presentation.event }}.
+    {% if presentation.link %}
+      <a href="{{ presentation.link }}">[Slides]</a>
+    {% endif %}
+    </li>
+  {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+  
 
 </section><!--//section-->
 {% endif %}
