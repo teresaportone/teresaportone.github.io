@@ -19,7 +19,7 @@ sidebar:
 career-profile:
     title: About Me
     details: |
-      I am a staff research scientist in the Optimization and Uncertainty Quantification department at Sandia National Laboratories. Prior to my current position at Sandia, I was a PhD Student in the [Computational Science, Engineering and Mathematics PhD Program](https://www.oden.utexas.edu/graduate-studies/), housed in the [Oden Institute for Computational Engineering and Sciences at UT Austin](https://www.oden.utexas.edu/). My research interests include:
+      I am a Principal Member of the Technical Staff in the Optimization and Uncertainty Quantification department at Sandia National Laboratories. My research interests include:
         - model-form uncertainty (model-form error/model inadequacy/model discrepancy)
         - Bayesian inference
         - sensitivity analysis
@@ -30,22 +30,62 @@ career-profile:
 publications:
   title: Recent Publications
   papers:
-  - title: Bayesian model selection for metal yield models in high-velocity impact
-    authors: Teresa Portone, John Niederhaus, Jason Sanchez, and Laura Swiler
-    journal: International Journal of Impact Engineering 
-    year: 2020
-    link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
-  - title: Bayesian inference of an uncertain generalized diffusion operator
-    authors: Teresa Portone, Robert D. Moser
-    journal: SIAM/ASA Journal on Uncertainty Quantification 
-    year: 2022
-    link: "https://doi.org/10.1137/21M141659X"
-    #preprints:
-    #- title: Bayesian inference of an uncertain generalized diffusion operator
-    #  authors: Teresa Portone, Robert D. Moser
-    #  year: 2021
-    #  link: "https://arxiv.org/abs/2105.01807"
+    - title: Quantifying model prediction sensitivity to model-form uncertainty
+      authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
+      journal: ArXiV preprint
+      year: 2025
+      link: "https://arxiv.org/abs/2509.08708"
+    - title: Scalable extensions to given-data Sobol' index estimators
+      authors: Teresa Portone, Bert Debusschere, Samantha Yang, Emiliano Islas-Quinones, T. Patrick Xiao
+      journal: ArXiV preprint
+      year: 2025
+      link: "https://arxiv.org/abs/2509.09078"
+    - title: Hybrid Physics-Data Enrichments to Represent Uncertainty in Reduced Gas-Surface Chemistry Models for Hypersonic Flight
+      authors: Rileigh Bandy, Rebecca Morrison, Erin Mussoni, Teresa Portone
+      journal: ArXiV preprint
+      year: 2025
+      link: "https://arxiv.org/abs/2509.08137"
+    - title: Closure Term Estimation in Spatiotemporal Models of Dynamical Systems
+      authors: Eric Crislip, Mohammad Khalil, Teresa Portone, Oksana Chkrebtii, Kyle Neal
+      journal: ArXiV preprint
+      year: 2025
+      link: "https://arxiv.org/abs/2511.20869"
+    - title: Investigating Model Form Error Estimation for Sparse Data
+      authors: Kyle D Neal, Mohammad Khalil, Teresa Portone
+      journal: Proceedings of the Annual Conference of the PHM Society
+      year: 2024
+      link: "https://doi.org/10.36001/phmconf.2024.v16i1.4081"
+  # - title: Bayesian model selection for metal yield models in high-velocity impact
+  #   authors: Teresa Portone, John Niederhaus, Jason Sanchez, and Laura Swiler
+  #   journal: International Journal of Impact Engineering 
+  #   year: 2020
+  #   link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
+  # - title: Bayesian inference of an uncertain generalized diffusion operator
+  #   authors: Teresa Portone, Robert D. Moser
+  #   journal: SIAM/ASA Journal on Uncertainty Quantification 
+  #   year: 2022
+  #   link: "https://doi.org/10.1137/21M141659X"
+  #   #preprints:
+  #   #- title: Bayesian inference of an uncertain generalized diffusion operator
+  #   #  authors: Teresa Portone, Robert D. Moser
+  #   #  year: 2021
+  #   #  link: "https://arxiv.org/abs/2105.01807"
   other:
+  - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
+    authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
+    type: Technical Report
+    year: 2025
+    link: "https://doi.org/10.2172/2999140"
+  - title: Challenges in quantifying unparameterized spatial uncertainties in deep geologic repositories for nuclear waste
+    authors: Teresa Portone, Dusty M. Brooks, Laura P. Swiler
+    type: Technical Report
+    year: 2025
+    link: "https://doi.org/10.2172/2588881"
+  - title: Theoretical and methodological challenges in hierarchical Bayesian inference for model-form uncertainty
+    authors: Teresa Portone, Rebekah D. White
+    type: Technical Report
+    year: 2025
+    link: "https://doi.org/10.2172/2587508"
   - title: Representing Model-Form Uncertainty from Missing Microstructural Information
     authors: Teresa Portone
     type: Dissertation
@@ -54,20 +94,29 @@ publications:
 presentations:
   title: Recent Presentations
   conference-talks:
-  - title: Physics-constrained Bayesian inference of an uncertain operator in the sparse-data regime
-    authors: T. Portone, R.D. Moser 
-    conference: SIAM UQ22, Hybrid, April 2022 
-    link: "assets/presentations/portone_siamuq22.pdf"
-  - title: Learning Missing Mechanisms in a Dynamical System from a Subset of State Variable Observations 
-    authors: T. Portone, E. Acquesta, R. Dandekar, C. Rackauckas 
-    conference: USNCCM16, Virtual, 2021
-    link: "assets/presentations/UDE_data_requirements_portone.pdf"
-  - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model 
-    authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
-    conference: SIAM CSE21, Virtual, March 2021
-    link: "assets/presentations/portone_cse21.pdf"
-  invited-talks:
-  - title: A brief survey of uncertainty quantification
-    authors: T. Portone
-    event: University of Alabama Mathematics Colloquium, November 2022
-    link: "assets/presentations/portone_UA_colloquium.pdf"
+  - title: Trustworthy and Scalable Data-Driven Closure Models
+    authors: Teresa Portone, Mohammad Khalil, Kyle Neal
+    conference: WCCM16, Vancounter, BC, Canada, July 2024
+    link: "https://www.osti.gov/servlets/purl/2586067"
+  - title: Assessing Model Prediction Trustworthiness in the Presence of Model-Form Uncertainty
+    authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
+    conference: SIAM UQ24, Trieste, Italy, February 2024
+    link: "https://www.osti.gov/servlets/purl/2517913"
+  #invited-talks:
+  # - title: Physics-constrained Bayesian inference of an uncertain operator in the sparse-data regime
+  #   authors: T. Portone, R.D. Moser 
+  #   conference: SIAM UQ22, Hybrid, April 2022 
+  #   link: "assets/presentations/portone_siamuq22.pdf"
+  # - title: Learning Missing Mechanisms in a Dynamical System from a Subset of State Variable Observations 
+  #   authors: T. Portone, E. Acquesta, R. Dandekar, C. Rackauckas 
+  #   conference: USNCCM16, Virtual, 2021
+  #   link: "assets/presentations/UDE_data_requirements_portone.pdf"
+  # - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model 
+  #   authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
+  #   conference: SIAM CSE21, Virtual, March 2021
+  #   link: "assets/presentations/portone_cse21.pdf"
+  # invited-talks:
+  # - title: A brief survey of uncertainty quantification
+  #   authors: T. Portone
+  #   event: University of Alabama Mathematics Colloquium, November 2022
+  #   link: "assets/presentations/portone_UA_colloquium.pdf"
