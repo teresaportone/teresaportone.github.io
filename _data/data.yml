@@ -32,12 +32,12 @@ publications:
   papers:
     - title: Quantifying model prediction sensitivity to model-form uncertainty
       authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
-      journal: ArXiV preprint
+      journal: Under review at Journal of Computational Physics
       year: 2025
       link: "https://arxiv.org/abs/2509.08708"
     - title: Scalable extensions to given-data Sobol' index estimators
       authors: Teresa Portone, Bert Debusschere, Samantha Yang, Emiliano Islas-Quinones, T. Patrick Xiao
-      journal: ArXiV preprint
+      journal: Under review at International Journal of Uncertainty Quantification
       year: 2025
       link: "https://arxiv.org/abs/2509.09078"
     - title: Hybrid Physics-Data Enrichments to Represent Uncertainty in Reduced Gas-Surface Chemistry Models for Hypersonic Flight
