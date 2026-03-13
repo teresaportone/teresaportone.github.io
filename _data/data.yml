@@ -55,21 +55,6 @@ publications:
       journal: Proceedings of the Annual Conference of the PHM Society
       year: 2024
       link: "https://doi.org/10.36001/phmconf.2024.v16i1.4081"
-  # - title: Bayesian model selection for metal yield models in high-velocity impact
-  #   authors: Teresa Portone, John Niederhaus, Jason Sanchez, and Laura Swiler
-  #   journal: International Journal of Impact Engineering 
-  #   year: 2020
-  #   link: "https://doi.org/10.1016/j.ijimpeng.2019.103459"
-  # - title: Bayesian inference of an uncertain generalized diffusion operator
-  #   authors: Teresa Portone, Robert D. Moser
-  #   journal: SIAM/ASA Journal on Uncertainty Quantification 
-  #   year: 2022
-  #   link: "https://doi.org/10.1137/21M141659X"
-  #   #preprints:
-  #   #- title: Bayesian inference of an uncertain generalized diffusion operator
-  #   #  authors: Teresa Portone, Robert D. Moser
-  #   #  year: 2021
-  #   #  link: "https://arxiv.org/abs/2105.01807"
   other:
   - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
     authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
@@ -102,21 +87,3 @@ presentations:
     authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
     conference: SIAM UQ24, Trieste, Italy, February 2024
     link: "https://www.osti.gov/servlets/purl/2517913"
-  #invited-talks:
-  # - title: Physics-constrained Bayesian inference of an uncertain operator in the sparse-data regime
-  #   authors: T. Portone, R.D. Moser 
-  #   conference: SIAM UQ22, Hybrid, April 2022 
-  #   link: "assets/presentations/portone_siamuq22.pdf"
-  # - title: Learning Missing Mechanisms in a Dynamical System from a Subset of State Variable Observations 
-  #   authors: T. Portone, E. Acquesta, R. Dandekar, C. Rackauckas 
-  #   conference: USNCCM16, Virtual, 2021
-  #   link: "assets/presentations/UDE_data_requirements_portone.pdf"
-  # - title: Application of Multifidelity Uncertainty Quantification Methods to a Subsurface Transport Model 
-  #   authors: T. Portone, M.S. Eldred, G. Geraci, L.P. Swiler
-  #   conference: SIAM CSE21, Virtual, March 2021
-  #   link: "assets/presentations/portone_cse21.pdf"
-  # invited-talks:
-  # - title: A brief survey of uncertainty quantification
-  #   authors: T. Portone
-  #   event: University of Alabama Mathematics Colloquium, November 2022
-  #   link: "assets/presentations/portone_UA_colloquium.pdf"
