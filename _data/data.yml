@@ -30,14 +30,29 @@ career-profile:
 publications:
   title: Recent Publications
   papers:
+    - title: Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches
+      authors: Rileigh Bandy, Teresa Portone, Mohammad Khalil, Eric Crislip, Kyle Neal
+      journal: ArXiV preprint
+      year: 2026
+      link: "https://arxiv.org/abs/2611.03612"
+    - title: Duality and Error for Predictively Oriented Inference
+      authors: Aurya Javeed, Drew P. Kouri, Teresa Portone, Rebekah White
+      journal: ArXiV preprint
+      year: 2026
+      link: "https://arxiv.org/abs/2608.10592"
+    - title: Inference in the presence of model-form uncertainties: Leveraging a prediction-oriented approach to improve uncertainty characterization
+      authors: Rebekah D. White, Rileigh Bandy, Teresa Portone
+      journal: ArXiV preprint
+      year: 2026
+      link: "https://arxiv.org/abs/2601.04396"
     - title: Quantifying model prediction sensitivity to model-form uncertainty
       authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
-      journal: Under review at Journal of Computational Physics
+      journal: ArXiV preprint
       year: 2025
       link: "https://arxiv.org/abs/2509.08708"
     - title: Scalable extensions to given-data Sobol' index estimators
       authors: Teresa Portone, Bert Debusschere, Samantha Yang, Emiliano Islas-Quinones, T. Patrick Xiao
-      journal: Under review at International Journal of Uncertainty Quantification
+      journal: Accepted at International Journal of Uncertainty Quantification
       year: 2025
       link: "https://arxiv.org/abs/2509.09078"
     - title: Hybrid Physics-Data Enrichments to Represent Uncertainty in Reduced Gas-Surface Chemistry Models for Hypersonic Flight
@@ -47,14 +62,9 @@ publications:
       link: "https://arxiv.org/abs/2509.08137"
     - title: Closure Term Estimation in Spatiotemporal Models of Dynamical Systems
       authors: Eric Crislip, Mohammad Khalil, Teresa Portone, Oksana Chkrebtii, Kyle Neal
-      journal: ArXiV preprint
+      journal: Under review at Journal of Computational Physics
       year: 2025
       link: "https://arxiv.org/abs/2511.20869"
-    - title: Investigating Model Form Error Estimation for Sparse Data
-      authors: Kyle D Neal, Mohammad Khalil, Teresa Portone
-      journal: Proceedings of the Annual Conference of the PHM Society
-      year: 2024
-      link: "https://doi.org/10.36001/phmconf.2024.v16i1.4081"
   other:
   - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
     authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
@@ -76,14 +86,14 @@ publications:
     type: Dissertation
     year: 2019
     link: "http://dx.doi.org/10.26153/tsw/10112"
-presentations:
-  title: Recent Presentations
-  conference-talks:
-  - title: Trustworthy and Scalable Data-Driven Closure Models
-    authors: Teresa Portone, Mohammad Khalil, Kyle Neal
-    conference: WCCM16, Vancounter, BC, Canada, July 2024
-    link: "https://www.osti.gov/servlets/purl/2586067"
-  - title: Assessing Model Prediction Trustworthiness in the Presence of Model-Form Uncertainty
-    authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
-    conference: SIAM UQ24, Trieste, Italy, February 2024
-    link: "https://www.osti.gov/servlets/purl/2517913"
+# presentations:
+#   title: Recent Presentations
+#   conference-talks:
+#   - title: Trustworthy and Scalable Data-Driven Closure Models
+#     authors: Teresa Portone, Mohammad Khalil, Kyle Neal
+#     conference: WCCM16, Vancounter, BC, Canada, July 2024
+#     link: "https://www.osti.gov/servlets/purl/2586067"
+#   - title: Assessing Model Prediction Trustworthiness in the Presence of Model-Form Uncertainty
+#     authors: Teresa Portone, Rebekah D. White, Joseph L. Hart
+#     conference: SIAM UQ24, Trieste, Italy, February 2024
+#     link: "https://www.osti.gov/servlets/purl/2517913"
