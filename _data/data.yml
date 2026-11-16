@@ -40,7 +40,7 @@ publications:
       journal: ArXiV preprint
       year: 2026
       link: "https://arxiv.org/abs/2608.10592"
-    - title: Inference in the presence of model-form uncertainties: Leveraging a prediction-oriented approach to improve uncertainty characterization
+    - title: "Inference in the presence of model-form uncertainties: Leveraging a prediction-oriented approach to improve uncertainty characterization"
       authors: Rebekah D. White, Rileigh Bandy, Teresa Portone
       journal: ArXiV preprint
       year: 2026
@@ -65,27 +65,27 @@ publications:
       journal: Under review at Journal of Computational Physics
       year: 2025
       link: "https://arxiv.org/abs/2511.20869"
-other:
-  - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
-    authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
-    type: Technical Report
-    year: 2025
-    link: "https://doi.org/10.2172/2999140"
-  - title: Challenges in quantifying unparameterized spatial uncertainties in deep geologic repositories for nuclear waste
-    authors: Teresa Portone, Dusty M. Brooks, Laura P. Swiler
-    type: Technical Report
-    year: 2025
-    link: "https://doi.org/10.2172/2588881"
-  - title: Theoretical and methodological challenges in hierarchical Bayesian inference for model-form uncertainty
-    authors: Teresa Portone, Rebekah D. White
-    type: Technical Report
-    year: 2025
-    link: "https://doi.org/10.2172/2587508"
-  - title: Representing Model-Form Uncertainty from Missing Microstructural Information
-    authors: Teresa Portone
-    type: Dissertation
-    year: 2019
-    link: "http://dx.doi.org/10.26153/tsw/10112"
+  other:
+    - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
+      authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
+      type: Technical Report
+      year: 2025
+      link: "https://doi.org/10.2172/2999140"
+    - title: Challenges in quantifying unparameterized spatial uncertainties in deep geologic repositories for nuclear waste
+      authors: Teresa Portone, Dusty M. Brooks, Laura P. Swiler
+      type: Technical Report
+      year: 2025
+      link: "https://doi.org/10.2172/2588881"
+    - title: Theoretical and methodological challenges in hierarchical Bayesian inference for model-form uncertainty
+      authors: Teresa Portone, Rebekah D. White
+      type: Technical Report
+      year: 2025
+      link: "https://doi.org/10.2172/2587508"
+    - title: Representing Model-Form Uncertainty from Missing Microstructural Information
+      authors: Teresa Portone
+      type: Dissertation
+      year: 2019
+      link: "http://dx.doi.org/10.26153/tsw/10112"
 # presentations:
 #   title: Recent Presentations
 #   conference-talks:
