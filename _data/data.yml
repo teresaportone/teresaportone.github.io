@@ -65,7 +65,7 @@ publications:
       journal: Under review at Journal of Computational Physics
       year: 2025
       link: "https://arxiv.org/abs/2511.20869"
-  other:
+other:
   - title: Assessing and Enabling Trustworthy Predictions for High-Consequence Decisions
     authors: Teresa Portone, Rebekah D. White, Rileigh Bandy
     type: Technical Report
